@@ -13,7 +13,8 @@ mixer.music.load('jungles.ogg')
 mixer.music.play()
 kick = mixer.Sound('kick.ogg')
 money = mixer.Sound('money.ogg')
-
+def yfguy():
+    pass
 font.init()
 font1 = font.SysFont('Alherian', 50)
 win = font1.render('YOU WIN!', True, (0, 0, 255))
